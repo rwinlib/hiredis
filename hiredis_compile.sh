@@ -4,8 +4,6 @@
 set -x
 set -e
 
-## set LIB_HIREDIS=C:/Users/rfitzjoh/src/redis/redis-2.4/deps/hiredis/hiredis
-
 DEST=${PWD}
 mkdir -p ${DEST}/include ${DEST}/lib/i386 ${DEST}/lib/x64
 
